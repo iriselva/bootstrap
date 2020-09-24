@@ -15,9 +15,11 @@ Its the first time using bootstrap so here are my thoughts:
 
 ## Usage
 
-Clone this project and open up the [index.html](index.html) to view the page. 
+Clone this project and open up the [index.html](index.html) to view the html for the front page. \
+Open up the [schedule.html](schedule.html) to view the html for the schedule page. \
 
-All styles are in [styles.css](styles.css).  
+Styles where made with [Bootstrap] (https://getbootstrap.com/) \
+All additional styles are in [styles.css](styles.css). \
 
 ## Demo
 
