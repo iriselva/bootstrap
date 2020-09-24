@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Cusom Font style -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header and Nav -->
+    <div class="container">
+      <header class="row">
+        <nav
+          class="fixed-top navbar navbar-expand-sm navbar-light bg-light col"
+        >
+          <div class="container-fluid">
+            <h3 class="navbar-brand">B&W</h3>
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarMenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="schedule.html">Scedule</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    
+
+    <!-- Table with time scedule -->
+
+    <main class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <div class="table-responsive-sm">
+            <table class="table table-hover">
+              <thead>
+                <tr class="table-warning">
+                  <td><h4>Friday</h4></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="col">Time</th>
+                  <th scope="col">Movie</th>
+                  <th scope="col">Year</th>
+                  <th scope="col">Availability</th>
+                </tr>
+                <tr>
+                  <th scope="row">6pm</th>
+                  <td>Casablanca</td>
+                  <td>1942</td>
+                  <td>
+                    <button
+                      type="button"
+                      class="btn btn-outline-warning btn-sm"
+                    >
+                      Ticket
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">7pm</th>
+                  <td>Psycho</td>
+                  <td>1960</td>
+                  <td>
+                    <button
+                      type="button"
+                      class="btn btn-outline-warning btn-sm"
+                    >
+                      Ticket
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">8pm</th>
+                  <td>Roman Holiday</td>
+                  <td>1953</td>
+                  <td>
+                    <button
+                      type="button"
+                      class="btn btn-outline-warning btn-sm"
+                    >
+                      Ticket
+                    </button>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">9pm</th>
+                  <td>2001: A Space Odyssey</td>
+                  <td>1968</td>
+                  <td>
+                    <button
+                      type="button"
+                      class="btn btn-outline-warning btn-sm"
+                    >
+                      Ticket
+                    </button>
+                  </td>
+                </tr>
+                <thead>
+                  <tr class="table-warning">
+                    <td><h4>Saturday</h4></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Movie</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Availability</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">6pm</th>
+                    <td>Citizen Kane</td>
+                    <td>1941</td>
+                    <td>
+                      <button
+                        type="button"
+                        class="btn btn-outline-warning btn-sm"
+                      >
+                        Ticket
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">7pm</th>
+                    <td>Some Like it Hot</td>
+                    <td>1959</td>
+                    <td>
+                      <button
+                        type="button"
+                        class="btn btn-outline-warning btn-sm"
+                      >
+                        Ticket
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th scope="row">8pm</th>
+                    <td>to Kill a Mockingbird</td>
+                    <td>1962</td>
+                    <td>
+                      <button
+                        type="button"
+                        class="btn btn-outline-warning btn-sm"
+                      >
+                        Ticket
+                      </button>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>9pm</th>
+                    <td>Sunset Bouleward</td>
+                    <td>1950</td>
+                    <td>
+                      <button
+                        type="button"
+                        class="btn btn-outline-warning btn-sm"
+                      >
+                        Ticket
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer - contact info -->
+    <footer class="bg-dark py-3">
+      <div class="container-fluid">
+        <div class="row">
+          <h2 class="col footer-logo text-white text-center">B&W</h2>
+        </div>
+
+        <div class="social d-flex justify-content-center row">
+          <div class="p-2 bd-highlight">
+            <a href="#"><img src="img/Email.svg" alt="Email" /></a>
+          </div>
+          <div class="p-2 bd-highlight">
+            <a href="#"><img src="img/Facebook.svg" alt="Facebook" /></a>
+          </div>
+          <div class="p-2 bd-highlight">
+            <a href="#"><img src="img/Instagram.svg" alt="Instagram" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
