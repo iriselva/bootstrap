@@ -11,7 +11,6 @@ Its the first time using bootstrap so here are my thoughts:
 > **Bad**
 > + Bootstrap made it difficult to change elements to your own liking.
 > + Bootstrap is widely used and therefore the design becomes unoriginal.
-> + Bootstrap can be time consuming for beginners
 
 ## Usage
 
