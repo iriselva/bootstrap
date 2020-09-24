@@ -21,6 +21,6 @@ All styles are in [styles.css](styles.css).
 
 ## Demo
 
-Go to [B&w Film Festival](http://bwfilmfestiwal.surge.sh/)) to view a demo of the page\.
+Go to [B&w Film Festival](http://bandwfilmfestival.surge.sh/) or http://bandwfilmfestival.surge.sh/  to view a demo of the page\.
 
 ---
